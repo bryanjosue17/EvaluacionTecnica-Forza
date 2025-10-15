@@ -1,0 +1,6 @@
+@CatalogSvc_HostAddress = http://localhost:5017
+
+GET {{CatalogSvc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

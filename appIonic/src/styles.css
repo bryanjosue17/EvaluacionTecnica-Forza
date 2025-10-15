@@ -1,0 +1,19 @@
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/display.css';
+
+:root {
+  --content-padding: 16px;
+}
+ion-content {
+  --padding-start: var(--content-padding);
+  --padding-end: var(--content-padding);
+}
+
+/* Asegura stacking correcto del menú */
+ion-menu { z-index: 9999; }
+
+/* Opcional: ancho cómodo del menú */
+ion-menu { --width: 300px; }

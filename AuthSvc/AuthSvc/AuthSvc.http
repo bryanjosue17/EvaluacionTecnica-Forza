@@ -1,0 +1,6 @@
+@AuthSvc_HostAddress = http://localhost:5155
+
+GET {{AuthSvc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

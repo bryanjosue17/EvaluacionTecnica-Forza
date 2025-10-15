@@ -1,0 +1,1 @@
+import { CapacitorConfig } from '@capacitor/cli'; const config: CapacitorConfig = { appId: 'com.example.ecomionic.complete', appName: 'ecom-ionic-complete-gateway', webDir: 'www' }; export default config;

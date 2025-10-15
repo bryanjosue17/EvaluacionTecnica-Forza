@@ -1,0 +1,66 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+/* Tema Material (Material 3) */
+$theme: mat.define-theme((
+  color: ( theme-type: light ),
+  density: ( scale: -1 ),
+  typography: (
+    brand-family: 'Roboto, "Helvetica Neue", Arial, sans-serif',
+    plain-family: 'Roboto, "Helvetica Neue", Arial, sans-serif'
+  )
+));
+
+:root { @include mat.all-component-themes($theme); }
+
+/* --------- Global layout --------- */
+:root { --container-max: 1200px; --gap: 16px; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #f8f6f8;
+  color: #222;
+}
+
+/* Sidenav */
+.sidenav-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.mat-drawer-container { background: transparent !important; }
+
+/* App container */
+.app-container {
+  max-width: var(--container-max);
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Grid de tarjetas */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--gap);
+}
+
+/* Tarjetas */
+mat-card[appearance="outlined"] {
+  border-radius: 16px;
+}
+
+/* Toolbar */
+.toolbar-title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: .3px;
+}
+
+/* Botones */
+button[mat-stroked-button], a[mat-stroked-button] {
+  border-radius: 20px !important;
+}

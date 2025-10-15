@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\data\\orderdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\data\\orderdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\models\\ordersdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\models\\ordersdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\models\\cartentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\models\\cartentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|c:\\users\\bryan\\onedrive\\documentos\\visual studio 2022\\projects\\ordersvc\\ordersvc\\ordersvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1B5D6BF-ED0F-440C-A4C3-AC4111EC7ACC}|OrderSvc\\OrderSvc.csproj|solutionrelative:ordersvc\\ordersvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartEntities.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Models\\CartEntities.cs",
+              "RelativeDocumentMoniker": "OrderSvc\\Models\\CartEntities.cs",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Models\\CartEntities.cs",
+              "RelativeToolTip": "OrderSvc\\Models\\CartEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:34:03.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderSvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\appsettings.json",
+              "RelativeToolTip": "OrderSvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-13T19:26:27.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersDtos.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Models\\OrdersDtos.cs",
+              "RelativeDocumentMoniker": "OrderSvc\\Models\\OrdersDtos.cs",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Models\\OrdersDtos.cs",
+              "RelativeToolTip": "OrderSvc\\Models\\OrdersDtos.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:49:18.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDbContext .cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Data\\OrderDbContext .cs",
+              "RelativeDocumentMoniker": "OrderSvc\\Data\\OrderDbContext .cs",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Data\\OrderDbContext .cs",
+              "RelativeToolTip": "OrderSvc\\Data\\OrderDbContext .cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:46:21.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderSvc.csproj",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\OrderSvc.csproj",
+              "RelativeDocumentMoniker": "OrderSvc\\OrderSvc.csproj",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\OrderSvc.csproj",
+              "RelativeToolTip": "OrderSvc\\OrderSvc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T08:45:53.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Program.cs",
+              "RelativeDocumentMoniker": "OrderSvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Bryan\\OneDrive\\Documentos\\Visual Studio 2022\\Projects\\OrderSvc\\OrderSvc\\Program.cs",
+              "RelativeToolTip": "OrderSvc\\Program.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAqwIsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T08:45:37.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

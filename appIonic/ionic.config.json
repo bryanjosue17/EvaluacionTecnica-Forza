@@ -1,0 +1,7 @@
+{
+  "name": "ecom-ionic-complete-gateway",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
