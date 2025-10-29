@@ -59,14 +59,18 @@ flowchart LR
 sequenceDiagram
   participant U as User
   participant G as Gateway
-  participant A as AuthSvc
+  participant O as OrderSvc
   participant DB as SQL Server
-  U->>G: POST /auth/login (email, password)
-  G->>A: Proxy
-  A->>DB: SELECT user + verify hash
-  DB-->>A: OK
-  A-->>G: 200 (JWT + refresh)
-  G-->>U: 200 (tokens)
+
+  U->>G: POST /orders/checkout (JWT)
+  G->>O: Proxy + claims
+  O->>DB: BEGIN TRAN; valida stock carrito
+  O->>DB: SELECT stock
+  DB->>O: OK
+  O->>DB: INSERT order + details; descuenta stock
+  O->>DB: COMMIT
+  O->>G: 200 (orderId)
+  G->>U: 200 (orden creada)
 ```
 
 ---
