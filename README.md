@@ -66,11 +66,11 @@ sequenceDiagram
     U->>G: POST /orders/checkout (JWT)
     G->>O: Proxy + claims
     O->>DB: BEGIN TRAN; valida stock carrito
-    DB-->>O: OK
+    DB->>O: OK
     O->>DB: INSERT order + details; descuenta stock
-    DB-->>O: COMMIT
-    O-->>G: 200 (orderId)
-    G-->>U: 200 (orden creada)
+    DB->>O: COMMIT
+    O->>G: 200 (orderId)
+    G->>U: 200 (orden creada)
 ```
 
 ---
