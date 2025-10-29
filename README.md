@@ -23,10 +23,10 @@ El sistema adopta **microservicios** con un **API Gateway** como punto único de
 ## 🧱 2. Diagrama General
 ```mermaid
 flowchart LR
-  A[Usuario (Web/Móvil)] -->|HTTPS| B(API Gateway)
-  B -->|/auth/* + JWT| C[AuthSvc]
+  A[Usuario Web o Móvil] -->|HTTPS| B[API Gateway]
+  B -->|/auth/* y JWT| C[AuthSvc]
   B -->|/catalog/*| D[CatalogSvc]
-  B -->|/orders/* + JWT| E[OrderSvc]
+  B -->|/orders/* y JWT| E[OrderSvc]
   C --> F[(SQL Server)]
   D --> F
   E --> F
